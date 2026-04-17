@@ -1,7 +1,7 @@
 ---
 name: upkuajing-map-merchants-search
 description: Official skill for upkuajing (跨境魔方). Search merchants on map (地图获客). Find merchants by region or nearby location, get merchant details including name, address, phone, industry, and more. Includes geographic data APIs (country, province, city lists) to support location-based search.
-metadata: {"version":"1.0.1","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"📍","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+metadata: {"version":"1.0.2","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"📍","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # UpKuaJing Map Merchants Search
