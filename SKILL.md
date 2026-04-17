@@ -24,6 +24,8 @@ This skill provides access to UpKuaJing's map merchant database through:
 Script directory: `scripts/*.py`
 Run example: `python scripts/*.py`
 
+**Important**: Always use direct script invocation like `python scripts/merchants_search.py`. **Do NOT use** shell compound commands like `cd scripts && python merchants_search.py`.
+
 ## Two Main APIs
 
 ### Merchant Search (`merchants_search.py`)
@@ -210,3 +212,13 @@ Billed by **number of calls**, each call returns up to 100 records:
 - **Do not** guess parameter names, get accurate parameter names and formats from documentation
 - **Prohibit outputting technical parameter format**: Do not display code-style parameters in responses, convert to natural language
 - **Do not estimate or guess per-call fees** — use `python scripts/auth.py --price_info` to get accurate pricing information
+
+## Related Skills
+
+Other UpKuaJing skills you might find useful:
+
+- upkuajing-global-company-people-search — Global company and people search
+- upkuajing-customs-trade-company-search — Search customs trade companies
+- upkuajing-email-tool — Send emails and manage email tasks
+- upkuajing-sms-tool — Send SMS and manage SMS tasks
+- upkuajing-contact-info-validity-check — Check contact info validity
