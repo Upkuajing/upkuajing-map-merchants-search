@@ -28,7 +28,7 @@ def search_merchants(params: dict, cursor: str = None) -> dict:
         request_params['cursor'] = cursor
 
     # 向 /map/search 端点发起请求
-    response = make_request('/map/search', request_params)
+    response = make_request('/agent/map/search', request_params)
     return response
 
 

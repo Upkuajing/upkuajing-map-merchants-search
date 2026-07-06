@@ -11,9 +11,9 @@ from common import make_request, print_json_output
 
 # 地理类型到API端点的映射
 GEO_ENDPOINTS = {
-    'country': '/common/country/list',
-    'province': '/common/province/list',
-    'city': '/common/city/list'
+    'country': '/agent/common/country/list',
+    'province': '/agent/common/province/list',
+    'city': '/agent/common/city/list'
 }
 
 
