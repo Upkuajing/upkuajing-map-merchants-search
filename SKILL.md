@@ -1,7 +1,7 @@
 ---
 name: upkuajing-map-merchants-search
 description: "Pull bulk Google Maps business data with radius‑based filters. Gather merchant contact information, analyze market density and find distributors or overseas buyers for offline business expansion.\n\nTrigger: Google maps business scraper, bulk merchant data download, radius‑based lead search, distributor sourcing, competitor store analysis, regional market research, offline sales‑lead generation"
-metadata: {"version":"1.0.4","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"📍","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+metadata: {"version":"1.0.5","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"📍","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # UpKuaJing Map Merchants Search
