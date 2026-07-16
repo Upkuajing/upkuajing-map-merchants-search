@@ -1,7 +1,7 @@
 ---
 name: upkuajing-map-merchants-search
-description: Official skill for upkuajing (跨境魔方). Search merchants on map (地图获客). Find merchants by region or nearby location, get merchant details including name, address, phone, industry, and more. Includes geographic data APIs (country, province, city lists) to support location-based search.
-metadata: {"version":"1.0.3","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"📍","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
+description: "Pull bulk Google Maps business data with radius‑based filters. Gather merchant contact information, analyze market density and find distributors or overseas buyers for offline business expansion.\n\nTrigger: Google maps business scraper, bulk merchant data download, radius‑based lead search, distributor sourcing, competitor store analysis, regional market research, offline sales‑lead generation"
+metadata: {"version":"1.0.4","homepage":"https://www.upkuajing.com","clawdbot":{"emoji":"📍","requires":{"bins":["python"],"env":["UPKUAJING_API_KEY"]},"primaryEnv":"UPKUAJING_API_KEY"}}
 ---
 
 # UpKuaJing Map Merchants Search
@@ -217,8 +217,22 @@ Billed by **number of calls**, each call returns up to 100 records:
 
 Other UpKuaJing skills you might find useful:
 
+- linkedin-person-search — Search people from the LinkedIn source
+- global-company-person-search — Search people from the global company database
+- linkedin-company-search — Search companies from the LinkedIn source
+- global-company-search — Search companies from the global company database
+- global-company-shareholder — Query shareholder list from the global company database
+- global-company-employee — Query employee list from the global company database
+- global-company-person-colleague — Query colleague list from the global company database
+- global-company-person-alumni — Query alumni list from the global company database
+- global-company-person-experience — Query work experience list from the global company database
+- global-company-person-education — Query education history list from the global company database
+- global-company-person-school-detail — Query school detail from the global company database
 - upkuajing-global-company-people-search — Global company and people search
 - upkuajing-customs-trade-company-search — Search customs trade companies
 - upkuajing-email-tool — Send emails and manage email tasks
 - upkuajing-sms-tool — Send SMS and manage SMS tasks
 - upkuajing-contact-info-validity-check — Check contact info validity
+- phone-validity-check — Check phone number validity
+- email-validity-check — Check email address validity
+- domain-validity-check — Check domain validity and security
