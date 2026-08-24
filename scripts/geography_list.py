@@ -81,7 +81,8 @@ def get_geography_list(geo_type, country_id=None):
             "status": "fail",
             "total": 0,
             "list": [],
-            "error_msg": response.get('msg', '未知错误')
+            "error_msg": response.get('msg', '未知错误'),
+            "requestId": response.get('requestId')
         }
 
     geo_list = response.get('data', {}).get('list', [])
@@ -92,7 +93,8 @@ def get_geography_list(geo_type, country_id=None):
         "status": "success",
         "total": len(geo_list),
         "list": geo_list,
-        "error_msg": ""
+        "error_msg": "",
+        "requestId": response.get('requestId')
     }
 
 
